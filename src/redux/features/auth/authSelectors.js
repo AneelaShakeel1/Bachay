@@ -1,0 +1,17 @@
+export const selectUserDetails = (state) => state.authReducer.userDetails
+export const selectUserId = (state) => state.authReducer.userDetails?.id
+export const passwordd = (state => state.authReducer.password);
+export const authLoading = (state) => state.authReducer.auth_loading
+export const userDetailsLoading = (state) => state.authReducer.user_details_loading
+export const errState = (state) => state.authReducer.error
+export const selectUserToken = (state) => state.authReducer.userToken
+export const selectUserPassword = (state) => state.authReducer.userPassword
+export const selectAddressDetails = (state) => state.authReducer.addressDetails
+export const selectEditAddressDetails = (state) => state.authReducer.editAddress
+export const selectChildDetails = (state) => state.authReducer.childDetails
+export const selectSingleChildDetails = (state) => state.authReducer.singleChildDetails
+export const selectVaccineDetails = (state) => state.authReducer.singleVaccineDetails
+export const selectEditChildDetails = (state) => state.authReducer.editChild
+export const selectQuizCategories = (state) => state.authReducer.quizCategories;
+export const selectedCategoryQuizDetails = (state) => state.authReducer.singleCatQuizDetails;
+export const selectedCategoryQuizSingle = (state) => state.authReducer.singleCatQuizSingle;
